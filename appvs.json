@@ -1,0 +1,17 @@
+[
+  {
+    "judul": "Channel News",
+    "gambar": "https://i.imgur.com/abcd123.jpg",
+    "url": "https://example.com/stream/news.m3u8"
+  },
+  {
+    "judul": "Movie Premium",
+    "gambar": "https://i.imgur.com/efgh456.jpg",
+    "url": "https://example.com/stream/movie.m3u8"
+  },
+  {
+    "judul": "Sports Live",
+    "gambar": "https://i.imgur.com/ijkl789.jpg",
+    "url": "https://example.com/stream/sports.m3u8"
+  }
+]
