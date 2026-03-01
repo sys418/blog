@@ -1,17 +1,17 @@
 [
   {
-    "judul": "Channel News",
-    "gambar": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc8wbnywXfwS_E-uiKeHTr3eeJaqN-VHRnSnhxmppla52CkW7DL6Ni-3yv_CTByt9NVOOMJZvmJURUmJNv1zJwXZQGleD8mIDp766MCeJUfhId-ytZklXV_wr8Dc_Uv7n6SMcsTpYEAOf0iIpAsDyEou134Mdw3Es90Q8zUj687JNrxsSge8EZzD7i35s/s100/icon.png",
+    "mingcheng": "Channel News",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc8wbnywXfwS_E-uiKeHTr3eeJaqN-VHRnSnhxmppla52CkW7DL6Ni-3yv_CTByt9NVOOMJZvmJURUmJNv1zJwXZQGleD8mIDp766MCeJUfhId-ytZklXV_wr8Dc_Uv7n6SMcsTpYEAOf0iIpAsDyEou134Mdw3Es90Q8zUj687JNrxsSge8EZzD7i35s/s100/icon.png",
     "url": "https://jsiwijwkjauzujajkwisushsjjsudjisiju.blogspot.com/2025/10/apk2.html?m=1"
   },
   {
-    "judul": "Movie Premium",
-    "gambar": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc8wbnywXfwS_E-uiKeHTr3eeJaqN-VHRnSnhxmppla52CkW7DL6Ni-3yv_CTByt9NVOOMJZvmJURUmJNv1zJwXZQGleD8mIDp766MCeJUfhId-ytZklXV_wr8Dc_Uv7n6SMcsTpYEAOf0iIpAsDyEou134Mdw3Es90Q8zUj687JNrxsSge8EZzD7i35s/s100/icon.png",
+    "mingcheng": "Movie Premium",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc8wbnywXfwS_E-uiKeHTr3eeJaqN-VHRnSnhxmppla52CkW7DL6Ni-3yv_CTByt9NVOOMJZvmJURUmJNv1zJwXZQGleD8mIDp766MCeJUfhId-ytZklXV_wr8Dc_Uv7n6SMcsTpYEAOf0iIpAsDyEou134Mdw3Es90Q8zUj687JNrxsSge8EZzD7i35s/s100/icon.png",
     "url": "https://example.com/stream/movie.m3u8"
   },
   {
-    "judul": "Sports Live",
-    "gambar": "https://i.imgur.com/ijkl789.jpg",
+    "mingcheng": "Sports Live",
+    "image": "https://i.imgur.com/ijkl789.jpg",
     "url": "https://example.com/stream/sports.m3u8"
   }
 ]
