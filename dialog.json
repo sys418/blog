@@ -3,5 +3,5 @@
   "title": "Important",
   "msg": "Server maintenance, please read.",
   "btn": "I Understand",
-  "cancelable": false
+  "cancelable": true
 }
