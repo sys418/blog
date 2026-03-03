@@ -1,0 +1,9 @@
+{
+  "show": true,
+  "title": "Update Available",
+  "message": "We have improved performance and fixed bugs. Update now to enjoy the best experience.",
+  "positive": "Update",
+  "negative": "Cancel",
+  "link": "https:// guanyinlite.my.id",
+  "cancel": true
+}
