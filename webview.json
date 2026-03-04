@@ -1,0 +1,23 @@
+{
+  "show": true,
+
+  "background_color": "#111827",
+
+  "title": "⚠ MAINTENANCE MODE ⚠",
+  "message": "Service is temporarily unavailable.\nPlease try again later.",
+
+  "title_color": "#FACC15",
+  "message_color": "#E5E7EB",
+
+  "title_size_sp": 24,
+  "message_size_sp": 16,
+
+  "glow": true,
+  "glow_color": "#FACC15",
+  "glow_radius": 20,
+
+  "shake": true,
+  "shake_intensity": 4,
+
+  "block_touch": true
+}
