@@ -1,0 +1,27 @@
+{
+  "title": "My Apps",
+  "list": [
+
+    {
+      "name": "Virtual GG",
+      "desc": "Virtual Game Guardian environment",
+      "icon": "https://guanyinlite.my.id/icon/vgg.png",
+      "url": "https://downloadlink.apk"
+    },
+
+    {
+      "name": "Smali Toolkit",
+      "desc": "Smali patch tools",
+      "icon": "https://guanyinlite.my.id/icon/smali.png",
+      "url": "https://downloadlink.apk"
+    },
+
+    {
+      "name": "Lite Tools",
+      "desc": "Android utility tools",
+      "icon": "https://guanyinlite.my.id/icon/tools.png",
+      "url": "https://downloadlink.apk"
+    }
+
+  ]
+}
