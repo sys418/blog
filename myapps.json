@@ -1,27 +1,11 @@
-{
-  "title": "My Apps",
-  "list": [
-
-    {
-      "name": "Virtual GG",
-      "desc": "Virtual Game Guardian environment",
-      "icon": "https://guanyinlite.my.id/icon/vgg.png",
-      "url": "https://downloadlink.apk"
+[{
+        "m": "RHVhbCBTcGFjZQ==",
+        "image": "https://play-lh.googleusercontent.com/2vva-dWvduqV6WpKqxX5G5JzhHBPieNZAo5DAz_kNjqE9P2luRM9Jainq13Rki8N8tJD=w480-h960",
+        "u": "aHR0cHM6Ly9ndWFueWluLWxpdGUuYmxvZ3Nwb3QuY29tLzIwMjUvMTIvZHVhbC1zcGFjZS5odG1sP209MQ=="
     },
-
     {
-      "name": "Smali Toolkit",
-      "desc": "Smali patch tools",
-      "icon": "https://guanyinlite.my.id/icon/smali.png",
-      "url": "https://downloadlink.apk"
-    },
-
-    {
-      "name": "Lite Tools",
-      "desc": "Android utility tools",
-      "icon": "https://guanyinlite.my.id/icon/tools.png",
-      "url": "https://downloadlink.apk"
+        "m": "UGFyYWxsZWwgU3BhY2UgTGl0ZQ==",
+        "image": "https://play-lh.googleusercontent.com/8L-jd2f9-n4YevvfLHx_qBJOCsF8AHDU6HvU8Zk_iGvE7N6Ek0sOzCj6iO8igGsmPBIN=w480-h960-rw",
+        "u": "aHR0cHM6Ly9ndWFueWluLWxpdGUuYmxvZ3Nwb3QuY29tLzIwMjYvMDIvcGFyYWxsZWwtc3BhY2UtbGl0ZS5odG1sP209MQ=="
     }
-
-  ]
-}
+]
