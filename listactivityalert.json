@@ -1,5 +1,5 @@
 {
- "show": false,
+ "show": true,
  "msg": "App expired.\nDownload new version. (LISTACTIVITY)",
  "url": "https://google.com"
 }
