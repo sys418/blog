@@ -1,5 +1,5 @@
 {
-  "show": true,
+  "show": false,
   "image": "https://domain.com/banner.jpg",
   "custom_text_bottom": "Anda akan diarahkan ke browser",
   "url_redirect": "https://google.com",
