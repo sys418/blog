@@ -1,233 +1,283 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GuanYinLITE</title>
-  <style>
-    :root {
-      --bg: #e0e5ec;
-      --shadow-light: #ffffff;
-      --shadow-dark: #a3b1c6;
-      --text: #2c2c2c;
-      --accent: #5c6bc0;
-      --accent2: #00a0e9; /* Telegram blue */
-    }
 
-    * {
-      box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
-    }
-
-    body {
-      background: var(--bg);
-      color: var(--text);
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    header {
-      margin: 40px 0 10px;
-    }
-
-    h1 {
-      font-size: 1.4rem;
-      color: var(--accent);
-      font-weight: 600;
-      margin-bottom: 5px;
-    }
-
-    .links {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 5px;
-      flex-wrap: wrap;
-    }
-
-    .link-tag {
-      font-size: 0.85rem;
-      background: var(--bg);
-      color: var(--accent);
-      padding: 6px 12px;
-      border-radius: 12px;
-      box-shadow: 3px 3px 6px var(--shadow-dark),
-                  -3px -3px 6px var(--shadow-light);
-      text-decoration: none;
-      transition: all 0.2s ease;
-    }
-
-    .link-tag:hover {
-      box-shadow: inset 2px 2px 4px var(--shadow-dark),
-                  inset -2px -2px 4px var(--shadow-light);
-      transform: translateY(1px);
-    }
-
-    .link-tag.telegram {
-      color: var(--accent2);
-    }
-
-    .neon-blink {
-      background: none;
-      color: var(--text);
-      padding: 10px 20px;
-      margin: 20px 0 25px;
-      opacity: 0.9;
-      text-align: left;
-      font-size: 0.80rem;
-      animation: softBlink 2.5s infinite;
-    }
-
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>GuanYinLITE</title>  <style>  
   
-  .guanyin {
-      background: none;
-      color: var(--text);
-      padding: 10px 20px;
-    text-align: left;
-      margin: 25px 0 30px;
-      opacity: 0.9;
-      font-size: 12px;
-      
-    }
+:root{  
+--bg:#e0e5ec;  
+--shadow-light:#ffffff;  
+--shadow-dark:#a3b1c6;  
+--text:#2c2c2c;  
+--accent:#5c6bc0;  
+--accent2:#00a0e9;  
+}  
   
+*{  
+box-sizing:border-box;  
+font-family:"Poppins",sans-serif;  
+}  
   
-    @keyframes softBlink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.7; }
-    }
-
-    .cyberpunk-hr {
-      width: 80%;
-      border: none;
-      height: 2px;
-      background: linear-gradient(to right, var(--accent), transparent);
-      margin: 30px auto;
-      border-radius: 2px;
-    }
-
-    .features {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      padding-bottom: 40px;
-    }
-
-    .feature {
-      width: 80%;
-      max-width: 300px;
-      background: var(--bg);
-      border-radius: 20px;
-      box-shadow: 6px 6px 12px var(--shadow-dark),
-                  -6px -6px 12px var(--shadow-light);
-      text-align: center;
-      padding: 20px;
-      cursor: pointer;
-      transition: all 0.2s ease;
-    }
-
-    .feature:hover {
-      box-shadow: inset 4px 4px 8px var(--shadow-dark),
-                  inset -4px -4px 8px var(--shadow-light);
-      transform: translateY(2px);
-    }
-
-    .feature h3 {
-      margin: 0;
-      color: var(--accent);
-    }
-
-    .feature p {
-      margin-top: 5px;
-      font-size: 0.9rem;
-      opacity: 0.7;
-    }
-
-    footer {
-      margin-top: 20px;
-      padding: 15px;
-      font-size: 0.8rem;
-      color: #666;
-    }
-
-    @media (min-width: 700px) {
-      .features {
-        flex-direction: row;
-        justify-content: center;
-      }
-      .feature {
-        width: 40%;
-      }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>GuanYinLITE</h1>
-    <div class="links">
-      <a href="https://guanyinlite.surge.sh" class="link-tag">🌐 WEB</a>
-      <a href="https://t.me/guanyin_lite" class="link-tag telegram">📱 Telegram</a>
-    </div>
-  </header>
-
-  <main>
-    <div class="neon-blink">
-      A collection of several virtual applications<br>
-      These APKs are 100% safe<br>
-      They are simply blog links packaged into an app to make searching easier.
-    </div>
-    
-    <div class="guanyin">
-      If the app crashes, choose another version.<br><hr/>
-  <b>* Latest Version :</b><br>
-  - Supports direct intent<br><br>
-
-  <b>* Simple APK :</b><br>
-  - Supports in-app file download and direct intent<br><br>
-
-  <b>* Older APK :</b><br>
-  - Only supports copying text
-      
-     
-</div>
-    
-
-    <hr class="cyberpunk-hr">
-
-    <section class="features">
-    
-    
-          <div class="feature" onclick="openFeature('simple.html')">
-        <h3>SIMPLE APK</h3>
-          
-        <p>Download</p>
-      </div>
-    
-      <div class="feature" onclick="openFeature('guanyin1.html')">
-        <h3>LATEST VERSION</h3>
+body{  
+background:var(--bg);  
+color:var(--text);  
+margin:0;  
+text-align:center;  
+}  
   
-        <p>Download</p>
-      </div>
+h1{
+margin-top:18px;
+color:var(--accent);
+font-size:12px;
+font-weight:600;
+}
+  
+/* links */  
+  
+.links{  
+display:flex;  
+justify-content:center;  
+gap:20px;  
+margin-top:10px;  
+}  
+  
+.link-tag{  
+font-size:.85rem;  
+background:var(--bg);  
+padding:6px 12px;  
+border-radius:12px;  
+  
+box-shadow:  
+3px 3px 6px var(--shadow-dark),  
+-3px -3px 6px var(--shadow-light);  
+  
+text-decoration:none;  
+color:var(--accent);  
+}  
+  
+/* slider */  
+  
+.slider{  
+display:flex;  
+gap:12px;  
+overflow-x:auto;  
+padding:20px;  
+}  
+  
+.slider img{  
+width:110px;  
+border-radius:16px;  
+  
+box-shadow:  
+6px 6px 12px var(--shadow-dark),  
+-6px -6px 12px var(--shadow-light);  
+}  
+  
+/* modal */  
+  
+.modal{  
+display:none;  
+position:fixed;  
+z-index:999;  
+left:0;  
+top:0;  
+width:100%;  
+height:100%;  
+background:rgba(0,0,0,0.8);  
+justify-content:center;  
+align-items:center;  
+}  
+  
+.modal img{  
+max-width:90%;  
+max-height:90%;  
+border-radius:20px;  
+}  
+  
+/* safe card */  
+  
+.safe-card{  
+  
+max-width:420px;  
+margin:10px auto;  
+  
+display:flex;  
+gap:10px;  
+  
+padding:14px;  
+  
+background:rgba(255,235,59,0.2);  
+border:1px solid #f4c542;  
+border-radius:14px;  
+  
+box-shadow:  
+6px 6px 12px var(--shadow-dark),  
+-6px -6px 12px var(--shadow-light);  
+  
+text-align:left;  
+}  
+  
+.safe-icon{  
+color:#2ecc71;  
+font-size:20px;  
+}  
+  
+.safe-text{  
+font-size:13px;  
+line-height:1.4;  
+}  
+  
+/* description */  
+  
+.guanyin{  
+padding:15px;  
+text-align:left;  
+font-size:12px;  
+max-width:420px;  
+margin:auto;  
+}  
+  
+/* download */  
+  
+.download-area{  
+display:flex;  
+flex-direction:column;  
+align-items:center;  
+gap:15px;  
+padding:30px 0;  
+}  
+  
+.older-btn{
+text-decoration:none;
+color:var(--text);
+display:inline-block;
+}
+  
+.latest-btn{  
+width:80%;  
+max-width:320px;  
+background:var(--bg);  
+border-radius:22px;  
+  
+box-shadow:  
+8px 8px 16px var(--shadow-dark),  
+-8px -8px 16px var(--shadow-light);  
+  
+padding:22px;  
+cursor:pointer;  
+  
+display:block;  
+text-align:center;  
+text-decoration:none;  
+color:var(--text);  
+}  
+  
+.latest-btn h3{  
+margin:4px 0;  
+font-size:1rem;  
+color:var(--accent);  
+}  
+  
+.latest-btn .dl{  
+font-size:10px;  
+opacity:0.6;  
+letter-spacing:1px;  
+}  
+  
+.latest-btn .year{  
+font-size:12px;  
+opacity:0.7;  
+}  
+  
+.older-btn{  
+  
+font-size:0.75rem;  
+padding:6px 12px;  
+border-radius:10px;  
+  
+background:var(--bg);  
+  
+box-shadow:  
+3px 3px 6px var(--shadow-dark),  
+-3px -3px 6px var(--shadow-light);  
+  
+cursor:pointer;  
+opacity:0.7;  
+}  
+  
+</style> 
+</head> 
+<body>  <!-- google translate --> 
+  <div id="google_translate_element" style="margin-top:10px;">
+    
+  </div> 
+  <h1>www.guanyinlite.surge.sh</h1>  <div class="links">  <a href="https://guanyinlite.surge.sh" class="link-tag">🌐 WEB</a>
 
+<a href="https://t.me/guanyin_lite" class="link-tag">📱 Telegram</a>
 
+</div>  <!-- slider -->  <div class="slider">  <img src="screen1.jpg" onclick="openImg(this)">  
+<img src="screen2.jpg" onclick="openImg(this)">  
+<img src="screen3.jpg" onclick="openImg(this)">  </div>  <div id="imgModal" class="modal" onclick="closeImg()">  
+<img id="modalImg">  
+</div>  <!-- safety card -->  <div class="safe-card">  <div class="safe-icon">✔</div>  <div class="safe-text">  
+<b>Application Safety</b><br>  
+This application is safe to use.<br>  
+Does not request storage, contacts, location, camera, or other sensitive permissions.  
+</div>  </div>  <!-- description -->  
+<div class="guanyin">  <b>Latest Version :</b><br>
+Hybrid native application.<br>
+Supports in-app file downloads and direct intent.<br><br>
 
+<b>Lite Features :</b><br>
+• Virtual applications collection<br>
+• Smali → Regex converter<br>
+• Remote Control<br>
+• Virtual backup import<br>
 
-      <div class="feature" onclick="openFeature('guanyin2.html')">
-        <h3><del>OLDER VERSION</del></h3>
-        <p>Download</p>
-      </div>
-    </section>
-  </main>
+</div>  <!-- download -->  
+  
+  <section class="download-area">
 
-  <footer>
-    <p>&copy; 2025 GuanYin.</p>
-  </footer>
+<a class="latest-btn" href="latest.html">
+  <small class="btn-top">Download</small><br>
+  LATEST VERSION (2026)
+</a>
 
-  <script>
-    function openFeature(page) {
-      window.location.href = page;
-    }
-  </script>
-</body>
+<a class="older-btn" href="older.html">
+  older version
+</a>
+
+</section>
+  <script>  
+  
+function openImg(img){  
+  
+document.getElementById("imgModal").style.display="flex";  
+document.getElementById("modalImg").src=img.src;  
+  
+}  
+  
+function closeImg(){  
+  
+document.getElementById("imgModal").style.display="none";  
+  
+}  
+  
+function openFeature(page){  
+  
+window.location.href=page;  
+  
+}  
+  
+/* google translate */  
+  
+function googleTranslateElementInit(){  
+new google.translate.TranslateElement({  
+pageLanguage:'en',  
+includedLanguages:'en,id'  
+},'google_translate_element');  
+}  
+  
+</script>  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>  </body>  
 </html>
